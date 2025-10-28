@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BarberShop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body style="font-family: Verdana, Geneva, Tahoma, sans-serif; height: 5000px;">
+    <header>
+        <nav class="navbar navbar-expand-lg" style="background-color: #aa8517;">
+            <div class="container-fluid px-5 d-flex justify-content-between align-items-center w-100">
+                <a class="navbar-brand" href="#"><img src="image/Logo.png" alt="BarberShop-Logo" style="width: 150px; aspect-ratio: 16/8; object-fit: contain;"></a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse flex-grow-0" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Planos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sobre</a>
+                        </li>       
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Galeria</a>
+                        </li>       
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contato</a>
+                        </li>       
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://images.pexels.com/photos/1813272/pexels-photo-1813272.jpeg" class="d-block w-100" alt="barbeiros">  
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.pexels.com/photos/7518736/pexels-photo-7518736.jpeg" class="d-block w-100" alt="salao">
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.pexels.com/photos/7518700/pexels-photo-7518700.jpeg" class="d-block w-100" alt="barbeiro-chefe">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+        </div>
+
+        <h2 style="text-align: center; font-size: 2em; font-weight: bold; padding: 30px 0">PLANOS DE ASSINATURA <span style="color: #aa8517;">CLUB BARBERSHOP:</span></h2>
+
+        <div class="card-group d.flex justify-content-around" style="gap: 10px; padding: 10px 20px;">
+            <div class="card" style="text-align: center;">
+                <div class="card-header" style="text-align: center; font-weight: bold; background-color: #aa8517; color: #f2f2f2;">
+                    Barba Ilimitada
+                    <span style="font-weight: lighter; font-size: 1em; color: rgb(226, 220, 166); text-shadow: 1px 1px 2px black;">Mensal</span>
+                </div>
+                <div class="card-body" style="background-color: #f2f2f2;">
+                    <h3 style="font-weight: bold; font-size: 2.5em; padding: 15px 0 30px 0;">R$ 160<span>°°</span></h3>
+
+                    <ul style="list-style: none; text-align: center;">
+                        <li style="margin-bottom: 15px;"><span style="padding: 2px 4px; color: red; border: 1px solid red; border-radius: 50%; font-size: 0.8em;">X</span> Corte o cabelo quantas vezes quiser</li>
+                        <li style="margin-bottom: 15px;"><span style="padding: 2px 4px; color: green; border: 1px solid green; border-radius: 50%; font-size: 0.8em;">V</span> Faça a barba quantas vezes quiser</li>
+                        <li><span style="padding: 2px 4px; color: green; border: 1px solid green; border-radius: 50%; font-size: 0.8em;">V</span> Descontos em produtos e serviços extras</li>
+                    </ul>
+                    <a href="#" class="btn btn-primary" style="background-color: #aa8517; color: #f2f2f2; border: none;">Clique aqui!</a>
+                </div>
+            </div>
+
+
+            <div class="card" style="text-align: center;">
+                <div class="card-header" style="text-align: center; font-weight: bold; background-color: #aa8517; color: #f2f2f2;">
+                    Barba e Cabelo Ilimitado
+                    <span style="font-weight: lighter; font-size: 1em; color: rgb(226, 220, 166); text-shadow: 1px 1px 2px black;">Mensal</span>
+                </div>
+                <div class="card-body" style="background-color: #f2f2f2;">
+                    <h3 style="font-weight: bold; font-size: 2.5em; padding: 15px 0 30px 0; text-shadow: 0 0 10px #aa8517;">R$ 230<span>°°</span></h3>
+
+                    <ul style="list-style: none; text-align: center;">
+                        <li style="margin-bottom: 15px;"><span style="padding: 2px 4px; color: green; border: 1px solid green; border-radius: 50%; font-size: 0.8em;">X</span> Corte o cabelo quantas vezes quiser</li>
+                        <li style="margin-bottom: 15px;"><span style="padding: 2px 4px; color: green; border: 1px solid green; border-radius: 50%; font-size: 0.8em;">V</span> Faça a barba quantas vezes quiser</li>
+                        <li><span style="padding: 2px 4px; color: green; border: 1px solid green; border-radius: 50%; font-size: 0.8em;">V</span> Descontos em produtos e serviços extras</li>
+                    </ul>
+                    <a href="#" class="btn btn-primary" style="background-color: #aa8517; color: #f2f2f2; border: none;">Clique aqui!</a>
+                </div>
+            </div>
+
+
+            <div class="card" style="text-align: center;">
+                <div class="card-header" style="text-align: center; font-weight: bold; background-color: #aa8517; color: #f2f2f2;">
+                    Barba Ilimitada
+                    <span style="font-weight: lighter; font-size: 1em; color: rgb(226, 220, 166); text-shadow: 1px 1px 2px black;">Mensal</span>
+                </div>
+                <div class="card-body" style="background-color: #f2f2f2;">
+                    <h3 style="font-weight: bold; font-size: 2.5em; padding: 15px 0 30px 0;">R$ 160<span>°°</span></h3>
+
+                    <ul style="list-style: none; text-align: center;">
+                        <li style="margin-bottom: 15px;"><span style="padding: 2px 4px; color: green; border: 1px solid green; border-radius: 50%; font-size: 0.8em;">V</span> Corte o cabelo quantas vezes quiser</li>
+                        <li style="margin-bottom: 15px;"><span style="padding: 2px 4px; color: red; border: 1px solid red; border-radius: 50%; font-size: 0.8em;">X</span> Faça a barba quantas vezes quiser</li>
+                        <li><span style="padding: 2px 4px; color: green; border: 1px solid green; border-radius: 50%; font-size: 0.8em;">V</span> Descontos em produtos e serviços extras</li>
+                    </ul>
+                    <a href="#" class="btn btn-primary" style="background-color: #aa8517; color: #f2f2f2; border: none;">Clique aqui!</a>
+                </div>
+            </div>
+        </div>
+    </main>
+  
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
